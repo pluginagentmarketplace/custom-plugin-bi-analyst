@@ -1,0 +1,66 @@
+{
+  "hooks": {
+    "before-command": {
+      "name": "Pre-command initialization",
+      "description": "Initialize plugin state and load user context",
+      "script": "hooks/pre-command.sh",
+      "events": ["learn", "roadmap", "role", "assess"]
+    },
+    "after-assessment": {
+      "name": "Post-assessment processing",
+      "description": "Process assessment results and generate recommendations",
+      "script": "hooks/post-assessment.sh",
+      "events": ["assess-complete"]
+    },
+    "on-skill-load": {
+      "name": "Skill loading hook",
+      "description": "Track skill access and update learning progress",
+      "script": "hooks/on-skill-load.sh",
+      "events": ["skill-accessed"]
+    },
+    "progress-tracker": {
+      "name": "Learning progress tracking",
+      "description": "Update user learning progress and milestones",
+      "script": "hooks/progress-tracker.sh",
+      "events": [
+        "lesson-completed",
+        "project-started",
+        "project-completed",
+        "quiz-passed"
+      ]
+    },
+    "notification": {
+      "name": "User notifications",
+      "description": "Send progress updates and encouragement",
+      "script": "hooks/notifications.sh",
+      "events": [
+        "milestone-achieved",
+        "streak-broken",
+        "recommendation-generated"
+      ]
+    }
+  },
+  "configuration": {
+    "enable-tracking": true,
+    "enable-notifications": true,
+    "enable-reminders": true,
+    "reminder-frequency": "weekly",
+    "save-progress": true,
+    "auto-backup": true,
+    "backup-interval": "daily"
+  },
+  "analytics": {
+    "track-usage": true,
+    "track-learning-path": true,
+    "track-skill-progress": true,
+    "track-assessments": true
+  },
+  "features": {
+    "personalized-recommendations": true,
+    "progress-tracking": true,
+    "milestone-badges": true,
+    "learning-streaks": true,
+    "peer-comparison": false,
+    "gamification": true
+  }
+}
