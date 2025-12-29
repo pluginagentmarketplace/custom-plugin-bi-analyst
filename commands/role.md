@@ -1,3 +1,9 @@
+---
+name: role
+description: Explore Specific Developer Roles in Detail
+allowed-tools: Read
+---
+
 # /role - Explore Specific Developer Roles in Detail
 
 Deep dive into any of the 65+ developer roles with detailed information about responsibilities, skills, salary ranges, job market, and learning resources.

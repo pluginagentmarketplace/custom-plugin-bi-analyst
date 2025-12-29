@@ -137,7 +137,6 @@ All notable changes to the Developer Roadmap Claude Code plugin are documented h
 **Launch Date**: January 15, 2024
 
 **Initial Highlights**:
-- Complete plugin based on official developer-roadmap repository
 - 7 specialized agents covering all major development domains
 - 65+ comprehensive learning roadmaps
 - Assessment engine for knowledge evaluation
@@ -181,7 +180,6 @@ All notable changes to the Developer Roadmap Claude Code plugin are documented h
 ## Contribution Guidelines
 
 ### How to Contribute
-1. Visit [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) repository
 2. Suggest improvements or new content
 3. Help translate roadmaps
 4. Share resources and project ideas
@@ -227,8 +225,6 @@ MIT License - See LICENSE file for full details
 ## Acknowledgments
 
 ### Original Developer Roadmap
-- Created by [Kamran Ahmed](https://github.com/kamranahmedse)
-- Repository: [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - Community contributions from 1000+ developers
 
 ### Claude Code Plugin Framework
@@ -246,8 +242,6 @@ MIT License - See LICENSE file for full details
 ## Contact & Support
 
 For questions or support:
-- GitHub: [developer-roadmap issues](https://github.com/kamranahmedse/developer-roadmap/issues)
-- Plugin repository: [plugin-developer-roadmap](https://github.com/pluginagentmarketplace/plugin-developer-roadmap)
 - Documentation: See README.md and ARCHITECTURE.md
 
 ---

@@ -1,3 +1,9 @@
+---
+name: learn
+description: Start Your Learning Journey
+allowed-tools: Read
+---
+
 # /learn - Start Your Learning Journey
 
 Welcome to the Developer Roadmap Learning System! This command helps you begin your learning journey by selecting a development role and creating a personalized learning path.

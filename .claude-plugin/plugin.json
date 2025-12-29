@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Ultra-comprehensive learning system for 65+ developer roles based on kamranahmedse/developer-roadmap. 7 specialized agents, 7 invokable skills, structured learning paths, and hands-on projects.",
   "author": "Plugin Agent Marketplace",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/kamranahmedse/developer-roadmap",

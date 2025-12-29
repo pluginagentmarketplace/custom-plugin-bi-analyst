@@ -363,7 +363,6 @@ Architecture Agent
 
 ```json
 {
-  "name": "developer-roadmap",
   "version": "1.0.0",
   "agents": [
     "01-frontend",
@@ -390,7 +389,6 @@ Architecture Agent
 ## File Structure
 
 ```
-developer-roadmap-plugin/
 ├── .claude-plugin/
 │   └── plugin.json (2 KB)
 │
@@ -493,4 +491,3 @@ Total: ~200 KB
 
 ---
 
-For more details, see README.md or visit [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)

@@ -1,3 +1,9 @@
+---
+name: assess
+description: Evaluate Your Knowledge and Skills
+allowed-tools: Read
+---
+
 # /assess - Evaluate Your Knowledge and Skills
 
 Assess your current knowledge across different development domains, identify learning gaps, and get personalized recommendations for improvement.

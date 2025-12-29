@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-bi-analyst",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "developer-roadmap",
+      "source": "./",
+      "description": "Claude Code plugin for bi analyst development",
+      "version": "1.0.0"
+    }
+  ]
+}

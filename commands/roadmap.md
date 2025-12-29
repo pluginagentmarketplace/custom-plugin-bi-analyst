@@ -1,3 +1,9 @@
+---
+name: roadmap
+description: Browse and Explore Development Roadmaps
+allowed-tools: Read
+---
+
 # /roadmap - Browse and Explore Development Roadmaps
 
 Explore comprehensive learning roadmaps for 65+ developer roles covering the entire software development landscape.
