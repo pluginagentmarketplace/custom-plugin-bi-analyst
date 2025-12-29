@@ -1,7 +1,7 @@
 {
-  "name": "developer-roadmap",
+  "name": "bi-analyst-assistant",
   "version": "1.0.0",
-  "description": "Ultra-comprehensive learning system for 65+ developer roles based on kamranahmedse/developer-roadmap. 7 specialized agents, 7 invokable skills, structured learning paths, and hands-on projects.",
+  "description": "Business Intelligence plugin with agents for data analysis, visualization, and reporting",
   "author": "Plugin Agent Marketplace",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -22,41 +22,13 @@
     "architecture"
   ],
   "agents": [
-    {
-      "id": "01-frontend",
-      "path": "agents/01-frontend.md",
-      "description": "Frontend development specialist: HTML, CSS, JavaScript, React, Vue, Angular, Next.js, and design systems"
-    },
-    {
-      "id": "02-backend",
-      "path": "agents/02-backend.md",
-      "description": "Backend development specialist: Node.js, Python, PHP, GraphQL, APIs, and server architectures"
-    },
-    {
-      "id": "03-devops",
-      "path": "agents/03-devops.md",
-      "description": "DevOps & Infrastructure specialist: Docker, Kubernetes, AWS, Linux, CI/CD, and cloud technologies"
-    },
-    {
-      "id": "04-data-ai",
-      "path": "agents/04-data-ai.md",
-      "description": "Data Science & AI specialist: Machine Learning, Data Engineering, AI Architecture, and MLOps"
-    },
-    {
-      "id": "05-languages",
-      "path": "agents/05-languages.md",
-      "description": "Programming Languages specialist: Python, Go, Rust, Java, C++, and language fundamentals"
-    },
-    {
-      "id": "06-mobile",
-      "path": "agents/06-mobile.md",
-      "description": "Mobile Development specialist: iOS, Android, React Native, Flutter, and cross-platform frameworks"
-    },
-    {
-      "id": "07-architecture",
-      "path": "agents/07-architecture.md",
-      "description": "Architecture & Foundations specialist: System Design, Software Architecture, Full-Stack, and Computer Science"
-    }
+    "./agents/01-bi-fundamentals.md",
+    "./agents/02-data-visualization.md",
+    "./agents/03-sql-analytics.md",
+    "./agents/04-excel-power-bi.md",
+    "./agents/05-tableau.md",
+    "./agents/06-data-modeling.md",
+    "./agents/07-reporting.md"
   ],
   "commands": [
     {
@@ -81,33 +53,12 @@
     }
   ],
   "skills": [
-    {
-      "id": "frontend",
-      "path": "skills/frontend/SKILL.md"
-    },
-    {
-      "id": "backend",
-      "path": "skills/backend/SKILL.md"
-    },
-    {
-      "id": "devops",
-      "path": "skills/devops/SKILL.md"
-    },
-    {
-      "id": "data-ai",
-      "path": "skills/data-ai/SKILL.md"
-    },
-    {
-      "id": "languages",
-      "path": "skills/languages/SKILL.md"
-    },
-    {
-      "id": "mobile",
-      "path": "skills/mobile/SKILL.md"
-    },
-    {
-      "id": "architecture",
-      "path": "skills/architecture/SKILL.md"
-    }
+    "./skills/bi-fundamentals/SKILL.md",
+    "./skills/data-visualization/SKILL.md",
+    "./skills/sql-analytics/SKILL.md",
+    "./skills/power-bi/SKILL.md",
+    "./skills/tableau/SKILL.md",
+    "./skills/data-warehousing/SKILL.md",
+    "./skills/report-automation/SKILL.md"
   ]
 }
