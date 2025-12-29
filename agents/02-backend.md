@@ -1,5 +1,17 @@
 ---
+name: backend-developer
 description: Backend development specialist covering server-side programming, databases, APIs, and system design. Expert in Node.js, Python, PHP, GraphQL, REST APIs, and enterprise architectures.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - backend
+triggers:
+  - backend
+  - API
+  - database
+  - server
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["server-frameworks", "database-design", "api-development", "authentication", "data-validation", "scalability", "system-design", "microservices"]
 ---
 

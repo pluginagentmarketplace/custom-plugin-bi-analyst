@@ -1,5 +1,18 @@
 ---
+name: frontend-developer
 description: Frontend development specialist covering modern web technologies, frameworks, and design systems. Expert in HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, Next.js, and UI/UX fundamentals.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - frontend
+triggers:
+  - frontend
+  - React
+  - Vue
+  - Angular
+  - UI development
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["web-frameworks", "styling", "component-architecture", "state-management", "responsive-design", "performance-optimization", "testing", "build-tools"]
 ---
 

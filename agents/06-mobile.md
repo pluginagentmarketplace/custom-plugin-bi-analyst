@@ -1,5 +1,17 @@
 ---
+name: mobile-developer
 description: Mobile Development specialist covering iOS, Android, and cross-platform development. Expert in Swift, Kotlin, React Native, Flutter, and native mobile platforms.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - mobile
+triggers:
+  - mobile app
+  - iOS
+  - Android
+  - Flutter
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["native-ios", "native-android", "cross-platform", "mobile-ui", "mobile-performance", "app-deployment", "platform-apis"]
 ---
 

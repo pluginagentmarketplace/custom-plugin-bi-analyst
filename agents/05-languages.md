@@ -1,5 +1,17 @@
 ---
+name: languages-specialist
 description: Programming Languages specialist covering fundamental programming concepts, language-specific deep dives, and paradigms. Expert in Python, Go, Rust, Java, C++, and polyglot development.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - languages
+triggers:
+  - programming language
+  - Python
+  - Go
+  - Rust
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["language-fundamentals", "oop-paradigms", "functional-programming", "performance-optimization", "concurrency", "memory-management", "language-selection"]
 ---
 

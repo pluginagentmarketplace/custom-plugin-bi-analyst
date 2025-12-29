@@ -1,0 +1,201 @@
+# Mobile Development Configuration Template
+# BI Analyst Plugin - Mobile Skill
+# Version: 1.0.0
+
+project:
+  name: "${PROJECT_NAME}"
+  platform: "cross-platform"  # ios, android, cross-platform
+  framework: "react-native"  # react-native, flutter, native
+
+# React Native Configuration
+react_native:
+  version: "0.73"
+  new_architecture: true
+  hermes: true
+
+  navigation:
+    library: "react-navigation"
+    version: "6.x"
+
+  state_management: "zustand"  # redux, zustand, mobx, jotai
+
+  styling:
+    library: "nativewind"  # stylesheet, styled-components, nativewind
+    design_system: true
+
+  testing:
+    unit: "jest"
+    e2e: "detox"
+    coverage_threshold: 80
+
+# Flutter Configuration
+flutter:
+  version: "3.16"
+  null_safety: true
+
+  state_management: "riverpod"  # provider, riverpod, bloc, getx
+
+  navigation:
+    type: "go_router"  # navigator-2, go_router
+
+  testing:
+    unit: "flutter_test"
+    widget: "flutter_test"
+    integration: "integration_test"
+
+# iOS Native Configuration
+ios:
+  deployment_target: "15.0"
+  swift_version: "5.9"
+
+  architecture: "mvvm"  # mvc, mvvm, viper, clean
+
+  ui_framework: "swiftui"  # uikit, swiftui
+
+  dependencies:
+    manager: "spm"  # cocoapods, spm, carthage
+
+  testing:
+    framework: "xctest"
+    ui_testing: true
+
+# Android Native Configuration
+android:
+  min_sdk: 24
+  target_sdk: 34
+  compile_sdk: 34
+
+  language: "kotlin"
+  kotlin_version: "1.9"
+
+  architecture: "mvvm"  # mvc, mvvm, mvi, clean
+
+  ui_framework: "compose"  # xml, compose
+
+  dependencies:
+    gradle_version: "8.2"
+    agp_version: "8.2"
+
+  testing:
+    unit: "junit5"
+    ui: "espresso"
+
+# App Configuration
+app:
+  bundle_id: "com.${ORGANIZATION}.${PROJECT_NAME}"
+  version: "1.0.0"
+  build_number: 1
+
+  permissions:
+    ios:
+      - camera
+      - photo_library
+      - location_when_in_use
+      - push_notifications
+    android:
+      - CAMERA
+      - READ_EXTERNAL_STORAGE
+      - ACCESS_FINE_LOCATION
+      - POST_NOTIFICATIONS
+
+  deep_linking:
+    enabled: true
+    schemes:
+      - "${PROJECT_NAME}"
+    universal_links:
+      enabled: true
+      domain: "${DOMAIN}"
+
+# API Integration
+api:
+  base_url: "${API_BASE_URL}"
+  timeout_ms: 30000
+
+  authentication:
+    type: "jwt"
+    storage: "secure_storage"  # async_storage, secure_storage, keychain
+
+  offline:
+    enabled: true
+    sync_strategy: "background"  # manual, background, real-time
+    storage: "sqlite"
+
+  caching:
+    enabled: true
+    default_ttl: 300
+
+# Push Notifications
+notifications:
+  provider: "firebase"  # firebase, onesignal, apns
+
+  firebase:
+    analytics: true
+    crashlytics: true
+    performance: true
+
+# Analytics
+analytics:
+  providers:
+    - firebase_analytics
+    - mixpanel
+
+  events:
+    screen_view: true
+    button_click: true
+    api_call: true
+
+# Performance
+performance:
+  bundle_optimization:
+    code_splitting: true
+    tree_shaking: true
+    minification: true
+
+  images:
+    lazy_loading: true
+    caching: true
+    formats: ["webp", "png"]
+
+  startup:
+    splash_screen: true
+    deferred_loading: true
+
+# Security
+security:
+  ssl_pinning: true
+  root_detection: true
+  code_obfuscation: true
+
+  storage:
+    encryption: true
+    keychain: true  # iOS
+    keystore: true  # Android
+
+  biometric:
+    enabled: true
+    fallback: "passcode"
+
+# CI/CD
+cicd:
+  ios:
+    signing: "automatic"  # automatic, manual
+    distribution: "testflight"
+
+  android:
+    signing: "keystore"
+    distribution: "internal"  # internal, alpha, beta, production
+
+  fastlane:
+    enabled: true
+    lanes:
+      - test
+      - beta
+      - release
+
+# Accessibility
+accessibility:
+  enabled: true
+  minimum_touch_target: 44
+  dynamic_type: true
+  voiceover_support: true
+  talkback_support: true

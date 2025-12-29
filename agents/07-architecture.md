@@ -1,5 +1,17 @@
 ---
+name: system-architect
 description: Architecture & Foundations specialist covering system design, software architecture, full-stack development, and computer science fundamentals. Expert in design patterns, scalability, and enterprise systems.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - architecture
+triggers:
+  - system design
+  - architecture
+  - scalability
+  - design patterns
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["system-design", "architecture-patterns", "full-stack-development", "scalability", "design-patterns", "software-engineering", "data-structures"]
 ---
 

@@ -1,5 +1,17 @@
 ---
+name: data-ai-specialist
 description: Data Science & AI specialist covering machine learning, data engineering, AI architecture, and MLOps. Expert in Python, TensorFlow, PyTorch, data pipelines, and production AI systems.
+model: sonnet
+tools: Read, Write, Edit, Bash, Grep, Glob, Task
+skills:
+  - data-ai
+triggers:
+  - machine learning
+  - AI
+  - data science
+  - ML model
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["machine-learning", "deep-learning", "data-engineering", "feature-engineering", "model-deployment", "mlops", "prompt-engineering", "ai-agents"]
 ---
 
