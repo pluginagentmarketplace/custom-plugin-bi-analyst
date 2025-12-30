@@ -1,25 +1,26 @@
 {
   "name": "bi-analyst-assistant",
-  "version": "1.0.0",
-  "description": "Business Intelligence plugin with agents for data analysis, visualization, and reporting",
+  "version": "2.0.0",
+  "description": "Comprehensive Business Intelligence plugin with specialized agents for data analysis, visualization, SQL analytics, Power BI, Tableau, data modeling, and enterprise reporting",
   "author": "Plugin Agent Marketplace",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamranahmedse/developer-roadmap",
-    "reference": "Official Developer Roadmap by Kamran Ahmed"
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-bi-analyst"
   },
   "keywords": [
-    "learning",
-    "roadmap",
-    "developer-roles",
-    "frontend",
-    "backend",
-    "devops",
-    "data-science",
-    "ai",
-    "mobile",
-    "architecture"
+    "business-intelligence",
+    "bi-analyst",
+    "data-visualization",
+    "sql-analytics",
+    "power-bi",
+    "tableau",
+    "data-modeling",
+    "reporting",
+    "data-warehousing",
+    "dashboards",
+    "kpi",
+    "analytics"
   ],
   "agents": [
     "./agents/01-bi-fundamentals.md",
@@ -34,22 +35,22 @@
     {
       "id": "learn",
       "path": "commands/learn.md",
-      "description": "Start your learning journey and select a development role"
+      "description": "Start your BI learning journey with structured paths"
     },
     {
       "id": "roadmap",
       "path": "commands/roadmap.md",
-      "description": "Browse and explore available roadmaps"
+      "description": "Explore BI analyst career roadmaps and specializations"
     },
     {
       "id": "role",
       "path": "commands/role.md",
-      "description": "Explore a specific developer role in detail"
+      "description": "Deep dive into BI analyst roles and responsibilities"
     },
     {
       "id": "assess",
       "path": "commands/assess.md",
-      "description": "Assess your knowledge and find learning gaps"
+      "description": "Assess your BI skills and identify learning gaps"
     }
   ],
   "skills": [

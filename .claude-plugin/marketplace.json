@@ -6,10 +6,10 @@
   },
   "plugins": [
     {
-      "name": "developer-roadmap",
+      "name": "bi-analyst-assistant",
       "source": "./",
-      "description": "Claude Code plugin for bi analyst development",
-      "version": "1.0.0"
+      "description": "Comprehensive Business Intelligence plugin with 7 specialized agents and skills for data analysis, visualization, SQL, Power BI, Tableau, data modeling, and reporting",
+      "version": "2.0.0"
     }
   ]
 }
