@@ -1,260 +1,226 @@
 ---
 name: roadmap
-description: Browse and Explore Development Roadmaps
+description: Explore BI Analyst Career Roadmaps
 allowed-tools: Read
 ---
 
-# /roadmap - Browse and Explore Development Roadmaps
+# /roadmap - BI Analyst Career Roadmaps
 
-Explore comprehensive learning roadmaps for 65+ developer roles covering the entire software development landscape.
+Explore comprehensive career roadmaps for Business Intelligence professionals, from entry-level analyst to senior leadership positions.
 
-## How to Use
+## BI Career Paths
 
-```
-/roadmap
-→ Select a category
-→ Browse available roles
-→ View detailed roadmap
-→ Get learning timeline and resources
-```
-
-## Roadmap Categories
-
-### 🌐 Frontend Development (8 roles)
-- Frontend Developer
-- Frontend Beginner
-- React Developer
-- Vue Developer
-- Angular Developer
-- Next.js Developer
-- Svelte Developer
-- Design Systems
-
-**Timeline:** 3-6 months | **Difficulty:** Medium | **Agent:** Frontend Development Agent
-
-### 🔧 Backend Development (11 roles)
-- Backend Developer
-- Backend Beginner
-- Node.js Developer
-- Python Developer
-- Go Developer
-- Rust Developer
-- PHP Developer
-- Java Developer
-- Spring Boot Developer
-- ASP.NET Core Developer
-- GraphQL Developer
-
-**Timeline:** 4-8 months | **Difficulty:** Medium-High | **Agent:** Backend Development Agent
-
-### ☁️ DevOps & Infrastructure (6 roles)
-- DevOps Engineer
-- DevOps Beginner
-- AWS Solutions Architect
-- Kubernetes Administrator
-- Linux System Administrator
-- Terraform Engineer
-
-**Timeline:** 3-6 months | **Difficulty:** Medium-High | **Agent:** DevOps & Infrastructure Agent
-
-### 📊 Data Science & AI (8 roles)
-- Data Engineer
-- Data Scientist
-- Data Analyst
-- AI Engineer
-- Machine Learning Engineer
-- MLOps Engineer
-- BI Analyst
-- Prompt Engineer
-
-**Timeline:** 4-12 months | **Difficulty:** High | **Agent:** Data Science & AI Agent
-
-### 📱 Mobile Development (5 roles)
-- iOS Developer (Swift)
-- Android Developer (Kotlin)
-- React Native Developer
-- Flutter Developer
-- Cross-Platform Mobile Developer
-
-**Timeline:** 3-6 months | **Difficulty:** Medium | **Agent:** Mobile Development Agent
-
-### 💻 Programming Languages (9 roles)
-- Python Developer
-- JavaScript Developer
-- Go Developer
-- Rust Developer
-- Java Developer
-- C++ Developer
-- Kotlin Developer
-- TypeScript Developer
-- Bash/Shell Developer
-
-**Timeline:** 2-4 months per language | **Difficulty:** Medium | **Agent:** Programming Languages Agent
-
-### 🏗️ Architecture & Foundations (10 roles)
-- Computer Science Fundamentals
-- Data Structures & Algorithms
-- System Design
-- Software Architecture
-- Full Stack Developer
-- Game Developer
-- Blockchain Developer
-- Cybersecurity Specialist
-- UX Designer
-- QA/Test Engineer
-
-**Timeline:** 6-12 months | **Difficulty:** High | **Agent:** Architecture & Foundations Agent
-
-### 💼 Management & Specialization (8 roles)
-- Engineering Manager
-- Technical Manager
-- Product Manager
-- Developer Relations Engineer
-- Technical Writer
-- Solutions Architect
-- Enterprise Architect
-- Principal Engineer
-
-**Timeline:** Varies | **Difficulty:** Varies | **Agent:** Architecture & Foundations Agent
-
-## Key Roadmap Features
-
-### 📚 Comprehensive Content
-- **1000+ learning hours** of content across all roles
-- **5000+ code examples** and practical implementations
-- **100+ real-world projects** for hands-on learning
-- **1000+ interview questions** and solutions
-
-### 🎯 Structured Learning Paths
-- Phase-based progression (Foundation → Core → Advanced → Specialization)
-- Clear learning milestones and checkpoints
-- Recommended time allocations
-- Difficulty levels (Beginner → Intermediate → Advanced → Expert)
-
-### 🛠️ Practical Projects
-- Beginner projects (1-2 weeks)
-- Intermediate projects (2-4 weeks)
-- Advanced projects (4-12 weeks)
-- Capstone projects (12+ weeks)
-
-### 📖 Resource Library
-- Links to official documentation
-- Curated blog posts and tutorials
-- Video course recommendations
-- Books and reference materials
-- Community resources
-
-### 🔗 Cross-Path Learning
-- See connections between roles
-- Understand skill combinations
-- Plan career progression
-- Find adjacent learning paths
-
-## Roadmap Example: Backend Developer
+### Path 1: BI Analyst Track
+**Entry Point:** Junior BI Analyst
+**Peak:** Senior BI Analyst / Lead Analyst
 
 ```
-PHASE 1: Foundation (Weeks 1-4)
-├─ Server fundamentals & HTTP protocol
-├─ Web server architecture
-├─ Database basics
-└─ Project: Build a simple HTTP server
-
-PHASE 2: Core Skills (Weeks 5-16)
-├─ Choose backend language (Node.js/Python/Go/etc)
-├─ Web framework & MVC pattern
-├─ SQL & Database design
-├─ Authentication & Authorization
-├─ API design (REST/GraphQL)
-├─ Testing & debugging
-└─ Projects: Todo API, Blog Platform
-
-PHASE 3: Advanced Topics (Weeks 17-24)
-├─ Caching strategies
-├─ Message queues & async processing
-├─ Microservices architecture
-├─ Performance optimization
-├─ Security best practices
-└─ Projects: E-commerce backend, Social network
-
-PHASE 4: Specialization (Weeks 25+)
-├─ Choose specialization (DevOps/Architect/DBA/etc)
-├─ Advanced patterns
-├─ System design
-└─ Project: Production-grade system design
+Junior BI Analyst (0-2 years)
+    ↓
+BI Analyst (2-4 years)
+    ↓
+Senior BI Analyst (4-7 years)
+    ↓
+Lead BI Analyst (7+ years)
 ```
 
-## Using This Command
+**Key Skills Progression:**
+- Junior: Excel, basic SQL, simple dashboards
+- Mid: Advanced SQL, Power BI/Tableau, data modeling
+- Senior: Architecture decisions, stakeholder management
+- Lead: Team leadership, strategy, enterprise solutions
 
-### Step 1: Explore Category
-```
-/roadmap
-→ Show me "Backend Development" paths
-```
+### Path 2: Technical Analytics Track
+**Entry Point:** Data Analyst
+**Peak:** Analytics Engineer / Data Architect
 
-### Step 2: Select Role
 ```
-I want to become a "Backend Developer"
-→ Show timeline, requirements, and resources
-```
-
-### Step 3: View Phases
-```
-Show Phase 1 roadmap
-→ Display content, projects, and skills
-```
-
-### Step 4: Deep Dive
-```
-I want to learn more about "API Design"
-→ Link to relevant skill `/api-design`
+Data Analyst (0-2 years)
+    ↓
+Analytics Engineer (2-5 years)
+    ↓
+Senior Analytics Engineer (5-8 years)
+    ↓
+Data Architect (8+ years)
 ```
 
-### Step 5: Get Support
+**Key Skills Progression:**
+- Analyst: SQL, Python basics, reporting
+- Engineer: dbt, data pipelines, advanced SQL
+- Senior: Architecture, optimization, governance
+- Architect: Enterprise design, strategy, leadership
+
+### Path 3: Visualization Specialist Track
+**Entry Point:** Report Developer
+**Peak:** Visualization Architect
+
 ```
-Which agent covers my learning?
-→ Guide to Backend Development Agent
-→ Show agent capabilities and resources
+Report Developer (0-2 years)
+    ↓
+Dashboard Developer (2-4 years)
+    ↓
+Visualization Specialist (4-7 years)
+    ↓
+Visualization Architect (7+ years)
 ```
 
-## Roadmap Statistics
+**Key Skills Progression:**
+- Report: Basic charts, standard reports
+- Dashboard: Interactive dashboards, user experience
+- Specialist: Advanced visualizations, design systems
+- Architect: Enterprise standards, governance
 
-| Metric | Count |
-|--------|-------|
-| Total Roles | 65+ |
-| Categories | 8 |
-| Learning Paths | 100+ |
-| Code Examples | 5000+ |
-| Projects | 100+ |
-| Interview Questions | 1000+ |
-| Total Hours | 1000+ |
+### Path 4: Platform Specialist Track
+**Entry Point:** BI Developer
+**Peak:** BI Platform Architect
 
-## Quick Links
+```
+BI Developer (0-2 years)
+    ↓
+Platform Administrator (2-4 years)
+    ↓
+BI Engineer (4-7 years)
+    ↓
+BI Platform Architect (7+ years)
+```
 
-- **Start Learning:** Use `/learn` to pick a role
-- **Compare Paths:** View prerequisites and connections
-- **Assess Knowledge:** Use `/assess` to evaluate your current level
-- **Browse Agents:** Use `/browse-agent` to meet your specialist
+**Focus Areas:**
+- Power BI Service administration
+- Tableau Server management
+- Enterprise deployment
+- Security and governance
 
-## Special Roadmaps
+### Path 5: Management Track
+**Entry Point:** Senior BI Analyst
+**Peak:** Director of Analytics / CDO
 
-### 🚀 Fast-Track Paths (3-6 months)
-- Become a junior developer
-- Specialize in a specific area
-- Learn a new language
-- Switch from related role
+```
+Senior BI Analyst (4-7 years)
+    ↓
+BI Team Lead (7-10 years)
+    ↓
+BI Manager (10-12 years)
+    ↓
+Director of Analytics (12+ years)
+```
 
-### 🏆 Expert Paths (12+ months)
-- Master system design
-- Become a solution architect
-- Lead technical teams
-- Specialize deeply
+**Skills Shift:**
+- Technical excellence → Team leadership
+- Individual contribution → Strategic planning
+- Tool expertise → Business partnership
 
-### 🔄 Transition Paths
-- Frontend → Backend (6-12 months)
-- Backend → DevOps (4-6 months)
-- Developer → Manager (varies)
-- Developer → Architect (8-12 months)
+## Skill Requirements by Level
+
+### Entry Level (0-2 years)
+| Skill | Proficiency |
+|-------|-------------|
+| Excel | Advanced |
+| SQL | Intermediate |
+| Power BI/Tableau | Basic |
+| Business Knowledge | Basic |
+| Communication | Intermediate |
+
+### Mid Level (2-5 years)
+| Skill | Proficiency |
+|-------|-------------|
+| SQL | Advanced |
+| Power BI/Tableau | Advanced |
+| Data Modeling | Intermediate |
+| Python/R | Basic |
+| Stakeholder Management | Intermediate |
+
+### Senior Level (5-8 years)
+| Skill | Proficiency |
+|-------|-------------|
+| Data Architecture | Advanced |
+| Multiple BI Tools | Expert |
+| Data Governance | Advanced |
+| Leadership | Intermediate |
+| Strategy | Intermediate |
+
+### Leadership (8+ years)
+| Skill | Proficiency |
+|-------|-------------|
+| Enterprise Architecture | Expert |
+| Team Management | Advanced |
+| Business Strategy | Advanced |
+| Vendor Management | Intermediate |
+| Budget Management | Intermediate |
+
+## Industry Specializations
+
+### Healthcare BI
+- HIPAA compliance
+- Clinical analytics
+- Patient outcomes
+- Revenue cycle
+
+### Financial Services BI
+- Risk analytics
+- Regulatory reporting
+- Trading analytics
+- Customer insights
+
+### Retail BI
+- Sales analytics
+- Inventory optimization
+- Customer segmentation
+- Supply chain
+
+### Manufacturing BI
+- Production analytics
+- Quality metrics
+- Supply chain visibility
+- Predictive maintenance
+
+### Technology BI
+- Product analytics
+- User behavior
+- Growth metrics
+- A/B testing
+
+## Certification Roadmaps
+
+### Microsoft Path
+1. PL-300: Power BI Data Analyst
+2. DP-500: Azure Enterprise Data Analyst
+3. Azure Data Engineer certifications
+
+### Tableau Path
+1. Tableau Desktop Specialist
+2. Tableau Desktop Certified Professional
+3. Tableau Server Certified Associate
+
+### Cloud Analytics
+1. AWS Certified Data Analytics
+2. Google Cloud Professional Data Engineer
+3. Snowflake SnowPro Core
+
+## Salary Progression (US Market)
+
+| Level | Experience | Range |
+|-------|-----------|-------|
+| Junior BI Analyst | 0-2 years | $55K-$75K |
+| BI Analyst | 2-4 years | $70K-$95K |
+| Senior BI Analyst | 4-7 years | $90K-$130K |
+| Lead/Principal | 7-10 years | $120K-$160K |
+| Manager | 8-12 years | $130K-$180K |
+| Director | 12+ years | $160K-$220K+ |
+
+## How to Use This Roadmap
+
+1. **Identify your current level** based on experience and skills
+2. **Choose your target path** (technical, specialist, or management)
+3. **Map skill gaps** using the `/assess` command
+4. **Create learning plan** with `/learn` command
+5. **Track progress** as you advance
+
+## Related Commands
+
+- `/learn` - Start structured learning for any track
+- `/assess` - Evaluate your current skill level
+- `/role` - Deep dive into specific BI roles
 
 ---
 
-**Ready to explore? Type `/roadmap` and start browsing!**
+**Ready to plan your career? Type `/roadmap` and explore your path!**

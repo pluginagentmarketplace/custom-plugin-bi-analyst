@@ -1,148 +1,181 @@
 ---
 name: learn
-description: Start Your Learning Journey
+description: Start Your BI Learning Journey
 allowed-tools: Read
 ---
 
-# /learn - Start Your Learning Journey
+# /learn - Start Your BI Learning Journey
 
-Welcome to the Developer Roadmap Learning System! This command helps you begin your learning journey by selecting a development role and creating a personalized learning path.
+Welcome to the Business Intelligence Learning System! This command helps you begin your BI journey by selecting a specialization and creating a personalized learning path.
 
-## Available Roles by Category
+## BI Specialization Tracks
 
-### 🌐 Frontend Development
-- **Frontend Developer** - Modern web application development (React, Vue, Angular, Next.js)
-- **Frontend Beginner** - HTML, CSS, JavaScript fundamentals
-- **React Developer** - Deep dive into React ecosystem and patterns
-- **Vue Developer** - Vue.js framework mastery
-- **Angular Developer** - Angular framework and enterprise patterns
-- **Next.js Developer** - Full-stack React with server-side rendering
-- **Svelte Developer** - Lightweight reactive framework
+### 1. BI Foundations Track
+**For:** Beginners starting in Business Intelligence
+**Duration:** 8-12 weeks
+**Agent:** BI Fundamentals Agent
 
-### 🔧 Backend Development
-- **Backend Developer** - Server-side application development
-- **Backend Beginner** - Web server fundamentals and basics
-- **Node.js Developer** - JavaScript backend and ecosystem
-- **Python Developer** - Python programming and frameworks
-- **Go Developer** - Systems programming with Go
-- **Rust Developer** - Systems programming with Rust
-- **PHP Developer** - PHP and web development
-- **Java Developer** - Java ecosystem and patterns
-- **Spring Boot Developer** - Java spring framework
-- **ASP.NET Core Developer** - .NET ecosystem
-- **GraphQL Developer** - GraphQL API design and implementation
+Core Topics:
+- Business metrics and KPIs
+- Data literacy fundamentals
+- BI ecosystem overview
+- Stakeholder communication
+- Basic data analysis concepts
 
-### ☁️ DevOps & Infrastructure
-- **DevOps Engineer** - Infrastructure automation and deployment
-- **DevOps Beginner** - Docker, CI/CD fundamentals
-- **AWS Solutions Architect** - AWS cloud platform expertise
-- **Kubernetes Administrator** - Container orchestration mastery
+### 2. Data Visualization Track
+**For:** Analysts focusing on visual storytelling
+**Duration:** 10-14 weeks
+**Agent:** Data Visualization Agent
 
-### 📊 Data & AI
-- **Data Engineer** - Building data pipelines and systems
-- **Data Scientist** - Machine learning and statistical analysis
-- **AI Engineer** - Large Language Models and AI systems
-- **Machine Learning Engineer** - ML model development and deployment
-- **MLOps Engineer** - ML operations and lifecycle management
-- **BI Analyst** - Business Intelligence and analytics
-- **Prompt Engineer** - LLM prompt design and optimization
+Core Topics:
+- Chart selection principles
+- Color theory and accessibility
+- Dashboard design patterns
+- Interactive visualizations
+- Visual best practices
 
-### 📱 Mobile Development
-- **iOS Developer** - Native iOS app development with Swift
-- **Android Developer** - Native Android app development with Kotlin
-- **React Native Developer** - Cross-platform mobile development
-- **Flutter Developer** - Cross-platform development with Flutter
+### 3. SQL Analytics Track
+**For:** Technical analysts and data professionals
+**Duration:** 12-16 weeks
+**Agent:** SQL Analytics Agent
 
-### 🏗️ Architecture & Foundations
-- **Software Architect** - System design and large-scale architecture
-- **Full Stack Developer** - Both frontend and backend development
-- **Game Developer** - Game development and graphics programming
-- **Blockchain Developer** - Smart contracts and Web3 applications
-- **Cybersecurity Specialist** - Security and penetration testing
-- **QA Engineer** - Software testing and quality assurance
+Core Topics:
+- Advanced SQL queries
+- Window functions
+- Performance optimization
+- Analytical functions
+- Complex joins and CTEs
 
-### 💼 Languages & Fundamentals
-- **Computer Science** - Algorithms, data structures, theory
-- **Database Administrator** - Database design and optimization
-- **Technical Writer** - Documentation and technical content
-- **Product Manager** - Product strategy and management
-- **Engineering Manager** - Team leadership and technical management
-- **DevRel Engineer** - Developer relations and community building
+### 4. Power BI Track
+**For:** Microsoft ecosystem professionals
+**Duration:** 10-14 weeks
+**Agent:** Excel & Power BI Agent
 
-## How to Use This Command
+Core Topics:
+- Power BI Desktop mastery
+- DAX formulas and calculations
+- Data modeling in Power BI
+- Power Query transformations
+- Enterprise deployment
 
-1. **Choose your current role or learning goal**
-   ```
-   /learn
-   Select: Backend Developer
-   ```
+### 5. Tableau Track
+**For:** Visual analytics specialists
+**Duration:** 10-14 weeks
+**Agent:** Tableau Agent
 
-2. **Get a personalized learning path**
-   - Foundational knowledge
-   - Core concepts and skills
-   - Advanced topics
-   - Hands-on projects
-   - Interview preparation
+Core Topics:
+- Tableau Desktop fundamentals
+- LOD expressions
+- Advanced calculations
+- Dashboard actions
+- Server administration
 
-3. **Explore the recommended agent**
-   - Each role maps to one of our 7 specialized agents
-   - Agents have detailed capability information
-   - Use `/browse-agent` to explore all agents
+### 6. Data Modeling Track
+**For:** Data architects and senior analysts
+**Duration:** 14-18 weeks
+**Agent:** Data Modeling Agent
 
-4. **Access related skills**
-   - Each learning path references key skills
-   - Use skills for deep dives into specific areas
-   - Combine multiple skills for comprehensive learning
+Core Topics:
+- Dimensional modeling
+- Star and snowflake schemas
+- Data warehouse design
+- ETL processes
+- Data governance
+
+### 7. Enterprise Reporting Track
+**For:** Report developers and BI leads
+**Duration:** 12-16 weeks
+**Agent:** Reporting Agent
+
+Core Topics:
+- Report design principles
+- Automated reporting
+- Distribution systems
+- Performance monitoring
+- Executive dashboards
 
 ## Learning Path Structure
 
-### Phase 1: Foundation (Weeks 1-4)
-- Language/platform fundamentals
+### Phase 1: Foundation (Weeks 1-3)
 - Core concepts and terminology
-- Development environment setup
-- First "Hello World" project
+- Tool setup and environment
+- Basic exercises
+- First simple project
 
-### Phase 2: Core Skills (Weeks 5-16)
-- Key frameworks and libraries
-- Database and data management
-- API design and integration
-- Testing and debugging
+### Phase 2: Core Skills (Weeks 4-8)
+- Deep dive into specialization
+- Hands-on projects
+- Real-world scenarios
+- Best practices
 
-### Phase 3: Advanced Topics (Weeks 17-24)
+### Phase 3: Advanced Topics (Weeks 9-12)
+- Complex implementations
 - Performance optimization
-- Architecture patterns
-- Security best practices
-- Production-grade development
+- Enterprise considerations
+- Integration patterns
 
-### Phase 4: Specialization (Weeks 25+)
-- Domain-specific expertise
-- Leadership and soft skills
-- Career development
-- Continuous learning
+### Phase 4: Mastery (Weeks 13+)
+- Capstone projects
+- Portfolio building
+- Certification prep
+- Industry specialization
 
-## Quick Tips
+## How to Use This Command
 
-- 💡 Start with your **current experience level**
-- 🎯 Focus on **one role** at a time
-- 🔄 Use `/role` command to go deeper into specific roles
-- 📚 Check `/browse-agent` to see which agent covers your role
-- 🧪 Look for hands-on projects in your learning path
-- 🤝 Join communities related to your chosen path
+1. **Choose your track** based on your goals:
+   ```
+   /learn
+   Select: Power BI Track
+   ```
 
-## Next Steps
+2. **Get your personalized path** with:
+   - Week-by-week curriculum
+   - Recommended resources
+   - Practice exercises
+   - Project ideas
 
-1. Use `/learn` to select your role
-2. Review the learning path and timeline
-3. Use `/browse-agent` to meet your specialized agent
-4. Access relevant skills with skill keywords
-5. Track your progress and adjust as needed
+3. **Access the relevant agent** for guidance:
+   - Each track maps to a specialized agent
+   - Agents provide domain-specific expertise
+   - Use for questions and deep dives
 
-## Questions?
+4. **Study related skills** for comprehensive learning:
+   - SQL Analytics skill for queries
+   - Data Visualization skill for charts
+   - Power BI skill for Microsoft tools
 
-- Want to explore multiple roles? Use `/roadmap`
-- Need to assess your current knowledge? Use `/assess`
-- Want to see specific role details? Use `/role`
+## Quick Start Recommendations
+
+### For Complete Beginners
+Start with: **BI Foundations Track**
+- Build solid understanding first
+- Learn business context
+- Develop analytical thinking
+
+### For Data Analysts
+Start with: **SQL Analytics Track** or **Data Visualization Track**
+- Leverage existing skills
+- Add BI-specific knowledge
+- Enhance current workflow
+
+### For Excel Users
+Start with: **Power BI Track**
+- Natural progression from Excel
+- Familiar Microsoft ecosystem
+- Quick wins with Power Query
+
+### For Career Changers
+Start with: **BI Foundations Track** + **Tableau Track**
+- Comprehensive overview
+- Industry-standard tool
+- Strong portfolio potential
+
+## Related Commands
+
+- `/roadmap` - View complete BI career paths
+- `/assess` - Evaluate your current BI skills
+- `/role` - Explore BI analyst role details
 
 ---
 
-**Ready to start learning? Type `/learn` and select your path!**
+**Ready to start learning? Type `/learn` and select your BI track!**
