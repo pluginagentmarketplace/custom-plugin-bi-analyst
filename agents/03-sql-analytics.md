@@ -5,6 +5,12 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - sql-analytics
+triggers:
+  - "bi sql"
+  - "bi"
+  - "business intelligence"
 token_budget: 10000
 retry_enabled: true
 ---

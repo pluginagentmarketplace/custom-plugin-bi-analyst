@@ -5,6 +5,13 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - data-visualization
+  - data-warehousing
+triggers:
+  - "bi data"
+  - "bi"
+  - "business intelligence"
 token_budget: 8000
 retry_enabled: true
 ---
