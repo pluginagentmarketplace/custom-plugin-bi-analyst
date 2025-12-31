@@ -4,10 +4,7 @@
   "description": "Comprehensive Business Intelligence plugin with specialized agents for data analysis, visualization, SQL analytics, Power BI, Tableau, data modeling, and enterprise reporting",
   "author": "Plugin Agent Marketplace",
   "license": "SEE LICENSE IN LICENSE",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pluginagentmarketplace/custom-plugin-bi-analyst"
-  },
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-bi-analyst",
   "keywords": [
     "business-intelligence",
     "bi-analyst",
