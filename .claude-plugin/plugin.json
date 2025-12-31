@@ -31,22 +31,22 @@
   "commands": [
     {
       "id": "learn",
-      "path": "commands/learn.md",
+      "path": "./commands/learn.md",
       "description": "Start your BI learning journey with structured paths"
     },
     {
       "id": "roadmap",
-      "path": "commands/roadmap.md",
+      "path": "./commands/roadmap.md",
       "description": "Explore BI analyst career roadmaps and specializations"
     },
     {
       "id": "role",
-      "path": "commands/role.md",
+      "path": "./commands/role.md",
       "description": "Deep dive into BI analyst roles and responsibilities"
     },
     {
       "id": "assess",
-      "path": "commands/assess.md",
+      "path": "./commands/assess.md",
       "description": "Assess your BI skills and identify learning gaps"
     }
   ],
