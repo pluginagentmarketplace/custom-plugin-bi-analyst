@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-bi-analyst
+/plugin marketplace add pluginagentmarketplace/custom-plugin-bi-analyst
 
 # Step 2️⃣ Install the plugin
 
